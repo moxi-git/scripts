@@ -1,2 +1,0 @@
-# scripts
-my linux scripts
