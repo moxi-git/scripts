@@ -1,7 +1,11 @@
 #!/bin/sh
 
 # update sys
-sudo pacman -Sy && sudo pacman -Syu
+sudo pacman -Syu
+
+sleep 1
+
+yay -Syu
 
 # reboot prompt
 echo "do you want to reboot y/n"
